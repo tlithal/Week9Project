@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moogoh</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse"></div>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="commission.html">Commissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Commissions</h1>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet dictum sit amet justo donec enim. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nisl vel pretium lectus quam id leo in. Ornare aenean euismod elementum nisi quis eleifend quam. Diam maecenas ultricies mi eget mauris pharetra et ultrices. Dolor sit amet consectetur adipiscing elit. Ac tortor dignissim convallis aenean et tortor at risus viverra. Morbi enim nunc faucibus a pellentesque. Diam vulputate ut pharetra sit amet aliquam id. Erat velit scelerisque in dictum non.
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="accordion" id="galleryAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="fullBodyHeading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fullBody" aria-expanded="false" aria-controls="fullBody">
+                    <div class="container text-center" >Full Body</div>
+                </button>
+            </h2>
+            <div id="fullBody" class="accordion-collapse collapse" aria-labelledby="fullBodyLabel" data-bs-parent="galleryAccordion">
+                <div class="accordion-body">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a data-bs-toggle="modal" href="#gallery1"><img class="w-100" src="gallery/moogle1.jpg" alt="Gallery 1"></a>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a data-bs-toggle="modal" href="#gallery2"><img class="w-100" src="gallery/moogle2.jpg" alt="Gallery 2"></a>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a data-bs-toggle="modal" href="#gallery3"><img class="w-100" src="gallery/moogle3.jpg" alt="Gallery 3"></a>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a data-bs-toggle="modal" href="#gallery4"><img class="w-100" src="gallery/moogle4.jpg" alt="Gallery 4"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headShotHeading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#headShot" aria-expanded="false" aria-controls="headShot">
+                    <div class="container text-center">Head Shot</div>
+                </button>
+            </h2>
+            <div id="headShot" class="accordion-collapse collapse" aria-labelledby="headShotLabel" data-bs-parent="galleryAccordion">
+                <div class="accordion-body">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <a data-bs-toggle="modal" href="#gallery5"><img class="w-100" src="gallery/moogle5.jpg" alt="Gallery 5"></a>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <a data-bs-toggle="modal" href="#gallery6"><img class="w-100" src="gallery/moogle6.jpg" alt="Gallery 6"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gallery1" tabindex="-1" aria-labelledby="gallery1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid" src="gallery/moogle1.jpg" alt="Gallery 1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gallery2" tabindex="-1" aria-labelledby="gallery2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid" src="gallery/moogle2.jpg" alt="Gallery 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gallery3" tabindex="-1" aria-labelledby="gallery3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid" src="gallery/moogle3.jpg" alt="Gallery 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gallery4" tabindex="-1" aria-labelledby="gallery4Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid" src="gallery/moogle4.jpg" alt="Gallery 4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gallery5" tabindex="-1" aria-labelledby="gallery5Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid" src="gallery/moogle5.jpg" alt="Gallery 5">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gallery6" tabindex="-1" aria-labelledby="gallery6Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img class="img-fluid" src="gallery/moogle6.jpg" alt="Gallery 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+</body>
+</html>
