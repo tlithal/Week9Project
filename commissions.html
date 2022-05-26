@@ -9,6 +9,8 @@
 </head>
 <body class="container">
 
+    <!-- Navbar -->
+
     <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,6 +54,40 @@
     </div>
     <br><br>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Prices</h2>
+            </div>
+            <div class="col"></div>
+            <div class="col">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Drawing Type</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Full Body</th>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <th>Head Shot</th>
+                            <td>$50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <br><br>
+
+
+    <!-- Accordion component to display the different artwork galleries -->
+
     <div class="accordion" id="galleryAccordion">
         <div class="accordion-item">
             <h2 class="accordion-header" id="fullBodyHeading">
@@ -59,7 +95,7 @@
                     <div class="container text-center" >Full Body</div>
                 </button>
             </h2>
-            <div id="fullBody" class="accordion-collapse collapse" aria-labelledby="fullBodyLabel" data-bs-parent="galleryAccordion">
+            <div id="fullBody" class="accordion-collapse collapse" aria-labelledby="fullBodyLabel" data-bs-parent="#galleryAccordion">
                 <div class="accordion-body">
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
@@ -85,7 +121,7 @@
                     <div class="container text-center">Head Shot</div>
                 </button>
             </h2>
-            <div id="headShot" class="accordion-collapse collapse" aria-labelledby="headShotLabel" data-bs-parent="galleryAccordion">
+            <div id="headShot" class="accordion-collapse collapse" aria-labelledby="headShotLabel" data-bs-parent="#galleryAccordion">
                 <div class="accordion-body">
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
@@ -99,6 +135,9 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Modal for each image so that it zooms in on the screen -->
 
     <div class="modal fade" id="gallery1" tabindex="-1" aria-labelledby="gallery1Label" aria-hidden="true">
         <div class="modal-dialog">
@@ -159,6 +198,7 @@
             </div>
         </div>
     </div>
+    <br><br>
 
 
 
